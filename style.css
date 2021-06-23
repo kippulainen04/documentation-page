@@ -1,0 +1,309 @@
+/*Space-Invader shape logo was taken from Vlad Zinculescu via https://css-tricks.com/the-shapes-of-css/ - Please check him out for more fun shape CC created by Vlad Zinculescu 
+The idea of using his CSS shape is just to make my current project look more mincraft to fit to the font-family that i am using.
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+:root {
+  --black-body: #000000;
+  --white-body:  rgb(248,248,246);
+  --contrast-a: #86424B;
+  --contrast-b: #42867D;
+  --contrast-c: #17292e;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: var(--white-body);
+  color: var(--black-text);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.container {
+  margin-left: 4rem;
+  padding: 1rem;
+}
+
+.nav-bar {
+  position: fixed;
+  width: 4rem;  
+  background-color: var(--contrast-c);
+  height: 100vh;
+ transition: all 200ms;
+}
+
+.nav-bar:hover {
+  width: 14rem;
+  box-shadow: 3px 3px 5px var(--contrast-c);
+}
+
+.nav-element {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  margin: 0;
+  height: 100%;
+  align-items: center;
+  }
+
+
+.nav-item {
+  text-align: center;
+  width: 100%;
+  margin-top: 2px;
+}
+
+.nav-item:last-child {
+  margin-top: auto;
+}
+
+.nav-link {
+  color: white;
+  height: 5rem;
+  text-decoration:none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  filter: opacity(0.4) hue-rotate(-45deg);
+  transition: 300ms ease-in; 
+  z-index: 1;
+}
+
+
+.nav-link:hover {
+  filter: opacity(1) hue-rotate(0deg);
+  background-color: var(--contrast-b);
+}
+
+.nav-link-special:hover {
+  filter: opacity(1) hue-rotate(0deg);
+  background-color: var(--contrast-a);
+  transform: scale(1.1);
+}
+
+
+.link-text{
+display: none;
+margin-left: 1rem;
+font-family: 'Press Start 2P', cursive;
+  font-size:0.8rem;
+}
+
+
+.nav-link:hover .link-text{
+  display: block;
+  font-weight: 600;
+}
+
+
+
+   #space-invader {
+      box-shadow: 0 0 0 1em red,
+      0 1em 0 1em red,
+      -2.5em 1.5em 0 .5em red,
+      2.5em 1.5em 0 .5em red,
+      -3em -3em 0 0 red,
+      3em -3em 0 0 red,
+      -2em -2em 0 0 red,
+      2em -2em 0 0 red,
+      -3em -1em 0 0 red,
+      -2em -1em 0 0 red,
+      2em -1em 0 0 red,
+      3em -1em 0 0 red,
+      -4em 0 0 0 red,
+      -3em 0 0 0 red,
+      3em 0 0 0 red,
+      4em 0 0 0 red,
+      -5em 1em 0 0 red,
+      -4em 1em 0 0 red,
+      4em 1em 0 0 red,
+      5em 1em 0 0 red,
+      -5em 2em 0 0 red,
+      5em 2em 0 0 red,
+      -5em 3em 0 0 red,
+      -3em 3em 0 0 red,
+      3em 3em 0 0 red,
+      5em 3em 0 0 red,
+      -2em 4em 0 0 red,
+      -1em 4em 0 0 red,
+      1em 4em 0 0 red,
+      2em 4em 0 0 red;
+      background: red;
+      width: 1em;
+      height: 1em;
+      overflow: hidden;
+      margin: 10px auto;
+      animation-name: space-bug;
+     animation-duration: 4s;
+  animation-iteration-count: infinite;
+     animation-directon: alternate;
+     }
+
+@keyframes space-bug {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.figure {
+  text-align: center
+}
+
+
+
+
+.space-p {
+width: 100%;
+  margin: 0 auto;
+  float: right;
+  padding-bottom: 1rem;
+ margin-top: 3.5rem;
+}
+
+#main-header {
+  font-size: 2rem;
+  font-family: 'Press Start 2P', cursive;
+  padding-bottom: 1.5rem;
+}
+
+header{
+  font-size: 1.75rem;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.subheader{
+  font-size: 1.5rem;}
+
+p {
+  font-size: 1.25rem;
+  text-align: justify;
+}
+
+
+.link-footer {
+  font-size: 1.25rem;
+  color: blue;
+    text-decoration:none;
+  font-family: 'Press Start 2P', cursive;
+}
+
+footer {
+    margin: 10px auto;
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: 500;
+    font-family: 'Press Start 2P', cursive;
+  margin-bottom: 1rem;
+}
+
+
+ 
+@media only screen and (min-width: 768px) {
+
+.icp-intro-image {
+  width: 450px;
+  height: 300px;
+}
+
+.left {
+  float:left;
+  padding: 20px;
+}
+
+.right {
+  float:right;
+  padding: 20px;
+}
+.center {
+  width: 100%;
+  height:auto;
+  text-align:center;
+}
+
+.clearfix {
+  overflow: auto;
+}
+.flex-test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-bar {
+    bottom: 0;
+    width: 100vw;
+    height: 5rem;
+  }
+  .nav-element {
+    flex-direction: row;
+    width: 100%;
+    padding: 5px;
+  }
+  .nav-link {
+    justify-content: center;
+  align-items: center;
+  }
+  .nav-link-special:hover {
+  filter: opacity(1) hue-rotate(0deg);
+  background-color: var(--contrast-a);
+  }
+  .nav-link:hover .link-text{
+  display: none;
+  } 
+  .nav-bar:hover {
+    width: 100vw;
+}
+ .container {
+  margin:0;
+   padding: 1rem;
+  }
+  
+  
+  .nav-item:last-child {
+  margin: 2.75px auto;
+}
+  #main-header {
+  font-size: 1.9rem;
+    }
+  
+header{
+  font-size: 1.65rem;}
+  
+.subheader{
+  font-size: 1.4rem;}
+
+p {
+  font-size: 1.20rem;}  
+  
+  .icp-intro-image {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+  
+  footer {
+    margin-bottom: 5rem;
+  }
+  }
