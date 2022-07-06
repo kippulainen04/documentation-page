@@ -85,6 +85,7 @@ After fulfilling the project, I accquire knowledge to:
 * [Google Fonts](https://fonts.google.com/)
 * [Pro Git](https://git-scm.com/book/en/v2)
 * [Reference Project](https://technical-documentation-page.freecodecamp.rocks)
+* [Content](https://www.thermofisher.com/fi/en/home/industrial/spectroscopy-elemental-isotope-analysis/spectroscopy-elemental-isotope-analysis-learning-center/trace-elemental-analysis-tea-information/inductively-coupled-plasma-mass-spectrometry-icp-ms-information.html)
 
 <div id='contribution'/>
 
