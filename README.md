@@ -24,7 +24,7 @@ The following content will be covered in this repository:
 After fulfilling the project, I accquire knowledge to:
 * Build and style static webpages with semantic **HTML** and **CSS**
 * Implement best practices and standards when structuring HTML files using nested elements, indentation, comments, and line breaks
-* Implement the use of adding **Images & Links** into HTML, using **`<li>, <float>, so on`tag**  tag to present the content of the project
+* Implement the use of adding **Images & Links** into HTML, using **`<li>, <float>, so on`tags** to present the content of the project
 * Implement CSS styling via class, id and element selectors using external stylesheets and inline styles
 * Implement **Bootstrap** styling, **Google font**, **Font Awesome**, **CSS breakpoints** and **Navigation** with **Responsive web design** theory
 * Use **Git workflow** to initialize projects, track changes, and host via remote server
