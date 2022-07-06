@@ -4,7 +4,7 @@
 
 Documentation page is normally used to present detailed information on a specific topic or theme. The content includes definition, description and how to operate a technical device for example. Since I have a background in Environmental chemistry and technology, I would like to present an analysis approach by using **Inductive Coupled Plasma Mass** technology in analytical chemistry as a reference source for this exercise.
 
-In this repository, the aim is to make a technical documentation page with coding languages, as **[HyperText Markup Language](https://en.wikipedia.org/wiki/HTML#:~:text=The%20HyperText%20Markup%20Language%20or,(HyperText%20Markup%20Language)) and [Cascading Style Sheets](https://en.wikipedia.org/wiki/CSS) to provide detailed information to client**.
+In this repository, the aim is to make a technical documentation page with coding languages, as **[HyperText Markup Language](https://en.wikipedia.org/wiki/HTML#:~:text=The%20HyperText%20Markup%20Language%20or,(HyperText%20Markup%20Language)) and [Cascading Style Sheets](https://en.wikipedia.org/wiki/CSS)** to provide detailed information to client.
 
 ## 🔑 Key Topic
 
