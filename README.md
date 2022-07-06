@@ -26,7 +26,7 @@ After fulfilling the project, I accquire knowledge to:
 * Implement best practices and standards when structuring HTML files using nested elements, indentation, comments, and line breaks
 * Implement the use of adding **Images & Links** into HTML, using **Float** tag to present picture and text
 * Implement CSS styling via class, id and element selectors using external stylesheets and inline styles
-* Implement **Bootstrap** styling, **Google font**, **CSS breakpoints** and **Navigation** with Responsive web design theory
+* Implement **Bootstrap** styling, **Google font**, **CSS breakpoints** and **Navigation** with **Responsive web design** theory
 * Use **Git workflow** to initialize projects, track changes, and host via remote server
 * Execute live deployment using **GitHub** Pages
 
