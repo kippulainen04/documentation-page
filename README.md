@@ -77,7 +77,7 @@ After fulfilling the project, I accquire knowledge to:
 
 <div id='links'/>
 
-## 💡 References & Credits
+## 💡 References & Helpful Links
 * [Version Control](https://en.wikipedia.org/wiki/Version_control)
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
