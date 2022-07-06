@@ -26,7 +26,7 @@ After fulfilling the project, I accquire knowledge to:
 * Implement best practices and standards when structuring HTML files using nested elements, indentation, comments, and line breaks
 * Implement the use of adding **Images & Links** into HTML, using **Float** tag to present picture and text
 * Implement CSS styling via class, id and element selectors using external stylesheets and inline styles
-* Implement **Bootstrap** styling, **Google font**, **CSS breakpoints** and **Navigation** with **Responsive web design** theory
+* Implement **Bootstrap** styling, **Google font**, **Font Awesome**, **CSS breakpoints** and **Navigation** with **Responsive web design** theory
 * Use **Git workflow** to initialize projects, track changes, and host via remote server
 * Execute live deployment using **GitHub** Pages
 
@@ -83,6 +83,7 @@ After fulfilling the project, I accquire knowledge to:
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Bootstrap](https://getbootstrap.com/)
 * [Google Fonts](https://fonts.google.com/)
+* [Font Awesome](https://fontawesome.com/)
 * [Pro Git](https://git-scm.com/book/en/v2)
 * [Reference Project](https://technical-documentation-page.freecodecamp.rocks)
 * [Content](https://www.thermofisher.com/fi/en/home/industrial/spectroscopy-elemental-isotope-analysis/spectroscopy-elemental-isotope-analysis-learning-center/trace-elemental-analysis-tea-information/inductively-coupled-plasma-mass-spectrometry-icp-ms-information.html)
